@@ -10,7 +10,7 @@ function HomePage() {
             Hey, I'm a guitar player ready for the next gig
           </h1>
           <p>
-            See my work trough the songs and other music peaces around
+            See my work trough the songs and other stuff around
           </p>
         </div>
       </Container>
