@@ -22,7 +22,7 @@ function HomePage() {
           width={1920 / 2}
           height={1280 / 2}
         />
-        <p>Photo by Karine &copy;</p>
+        <p>Photo: Karine &copy;</p>
       </div>
     </>
   )
