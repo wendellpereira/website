@@ -16,11 +16,11 @@ function HomePage() {
       </Container>
 
       <div className="container max-w-4xl m-auto px-4 mt-20">
-        <img
+        <Image
           src="/me-rehearsing.png"
           alt="me rehearsing"
-          width={1920 / 2}
-          height={1280 / 2}
+          width={864}
+          height={1414}
         />
         <p>Photo: Karine &copy;</p>
       </div>
