@@ -10,7 +10,7 @@ function Header() {
             <a>About</a>
           </Link>
           <Link href="/posts">
-            <a>Posts</a>
+            <a>Blog</a>
           </Link>
         </nav>
       </Container>
