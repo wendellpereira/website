@@ -17,6 +17,15 @@ export default class MyDocument extends NextDocument {
           <meta charSet="utf-8" />
           <meta name="robots" content="follow, index" />
           <meta name="description" content={meta.description} />
+          <link rel="preconnect" href="https://fonts.googleapis.com" />
+          <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+          <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet" />
+          <style>{`
+            .title {
+              font-family: Lilita One;
+              font-size: 5rem;
+            }
+          `}</style>
         </Head>
 
         <body>

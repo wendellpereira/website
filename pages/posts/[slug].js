@@ -41,7 +41,7 @@ export default function PostPage({ post }) {
             />
           </article>
 
-          <Comment />
+          {/* <Comment /> */}
         </div>
       )}
     </Container>
