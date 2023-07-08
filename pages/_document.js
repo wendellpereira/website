@@ -26,7 +26,6 @@ export default class MyDocument extends NextDocument {
               font-size: 5rem;
             }
           `}</style>
-          {/* <!-- Meta Pixel Code --> */}
           <script 
             dangerouslySetInnerHTML={{__html:`!function(f,b,e,v,n,t,s)
             {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
@@ -37,14 +36,10 @@ export default class MyDocument extends NextDocument {
             s.parentNode.insertBefore(t,s)}(window, document,'script',
             'https://connect.facebook.net/en_US/fbevents.js');
             fbq('init', '2897236797073181');
-            fbq('track', 'PageView');`
+            fbq('track', 'PageView');
+            `,
             }}
           />
-          <noscript><img height="1" width="1" style="display:none"
-            src="https://www.facebook.com/tr?id=2897236797073181&ev=PageView&noscript=1"
-          /></noscript>
-          {/* <!-- End Meta Pixel Code --> */}
-
         </Head>
 
         <body>
